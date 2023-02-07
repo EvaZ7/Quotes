@@ -1,0 +1,170 @@
+/*************/
+/* CSS RESET */
+/*************/
+
+/*naar een idee van Jen Simmons*/
+*, *::after, *::before {
+    box-sizing:border-box;  
+}
+  
+body {
+    margin:0;
+}
+  
+button:not([disabled]) {
+    cursor:pointer;
+}
+
+
+
+
+  
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --headings: rgb(255 255 255);
+    --links: rgb(255 105 180);
+    --linksactive: rgb(255 140 80);
+    --background-black: rgb(27 28 30);
+}
+
+
+
+
+
+/**************/
+/*** BASICS ***/
+/**************/
+body {
+    background-color: black;
+}
+
+main {
+    background-color: var(--background-black);
+    margin: 1.5em;
+    margin-top: 0em;
+    border-radius: 3em;
+    border-radius: 28px;
+    background: linear-gradient(145deg, #1d1e20, #18191b);
+    box-shadow:  10px 10px 15px #2f3749ab,
+             -10px -10px 15px #64666c58;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--headings);
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--headings);
+    font-size: 1.2em;
+    margin: 0;
+}
+  
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: var(--headings);
+}
+  
+a {
+    text-decoration: none;
+    color: var(--links);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--linksactive);
+}
+
+
+
+
+
+/**************/
+/*** FOOTER ***/
+/**************/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-black);
+    color: var(--headings);
+    height: 4em;
+
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+
+
+
+
+/**************/
+/*** HEADER ***/
+/**************/
+header {
+    position: sticky;
+    top: 0;
+    
+    background-color: var(--background-black);
+    color: var(--links);
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+
+/*navigatie*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 10em;
+}
+
+
+
+
+
+/************/
+/*** MAIN ***/
+/************/
+
+/*** wie ben ik ***/
+/******************/
+article:first-of-type, article:nth-of-type(2) {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ff9656, #e67e48);
+    box-shadow:  5px 5px 20px #b5623995,
+             -5px -5px 20px #ffb667ae;
+    width: 15em;
+    height: 15em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+article:nth-of-type(2) {
+    width: 12em;
+    height: 12em;
+
+    margin-left: 8em;
+    margin-top: 5em;
+}
