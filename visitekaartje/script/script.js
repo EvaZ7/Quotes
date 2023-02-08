@@ -1,6 +1,7 @@
 console.log('hello world');
 
 var mijnNaam = document.querySelector("h1");
+var bio = document.querySelector("article:nth-of-type(2) p")
 
 var data;
 getData().then((val) => {
@@ -17,7 +18,8 @@ async function getData() {
         if(element.name == "Eva"){
             // me = element;
             mijnNaam.textContent = element.name;
-            // console.log(element.name);
+            // console.log(element.bio.html);
+            bio.textContent = element.bio.html;
         }
     });
 
