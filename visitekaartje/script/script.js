@@ -1,7 +1,8 @@
 console.log('hello world');
 
 var mijnNaam = document.querySelector("h1");
-var bio = document.querySelector("article:nth-of-type(2) p")
+var bio = document.querySelector("article:nth-of-type(2) p");
+var avatar = document.querySelector("article:nth-of-type(3) img");
 
 var data;
 getData().then((val) => {
@@ -20,6 +21,8 @@ async function getData() {
             mijnNaam.textContent = element.name;
             // console.log(element.bio.html);
             bio.textContent = element.bio.html;
+            // console.log(element);
+            avatar.src = element.avatar;
         }
     });
 
