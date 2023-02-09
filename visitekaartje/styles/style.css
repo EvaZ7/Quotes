@@ -24,9 +24,9 @@ button:not([disabled]) {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-    --headings: rgb(255 255 255);
-    --links: rgb(255 105 180);
-    --linksactive: rgb(255 140 80);
+    --headings: rgba(27, 28, 30, 0.909);
+    --links: rgb(116, 5, 60);
+    --linksactive: rgb(255, 255, 255);
     --background-black: rgb(27 28 30);
 }
 
@@ -47,9 +47,9 @@ main {
     margin-top: 4em;
     margin-bottom: 4em;
     border-radius: 3em;
-    background: linear-gradient(145deg, #201f1d, #18191b);
-    box-shadow:  10px 10px 15px #694831ab,
-             -10px -10px 15px #9f6d1058;
+    background: black;
+    box-shadow:  10px 10px 15px #c702727c,
+             -6px -6px 15px #dc02bb39;
     display: flex;
     width: 85vw;
     flex-direction: column;
@@ -82,6 +82,7 @@ p {
 a {
     text-decoration: none;
     color: var(--links);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover {
@@ -151,11 +152,12 @@ footer {
 /* wie ben ik */
 article:first-of-type, 
 article:nth-of-type(2),
-article:nth-of-type(3) {
+article:nth-of-type(3),
+article:nth-of-type(4) {
     border-radius: 50%;
-    background: linear-gradient(145deg, #ff9656, #e67e48);
-    box-shadow:  5px 5px 20px #b5623995,
-             -5px -5px 20px #ffb667ae;
+    background: linear-gradient(145deg, #f861cb, #f5287a);
+    box-shadow:  5px 5px 20px #db0f5095,
+             -5px -5px 20px #fb4cb8ae;
     width: 15em;
     height: 15em;
 
@@ -211,12 +213,38 @@ article:nth-of-type(3) {
 
     margin-top: -1em;
     margin-left: 4em;
-    margin-bottom: 1em;
 
     animation: moving 3s ease-in-out 0.8s infinite;
 }
 article:nth-of-type(3) img {
     width: 30em;
+}
+
+/*contactinfo*/
+article:nth-of-type(4) {
+    margin-right: 2.8em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+    animation: moving 3s ease-in-out 1s infinite;
+}
+article:nth-of-type(4) a:first-of-type {
+    margin-top: 1em;
+    margin-bottom: -1em;
+}
+article:nth-of-type(4) p{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+article:nth-of-type(4):hover {
+    margin-top: -7em;
+    margin-left: 16.5em;
+    width: 15em;
+    height: 15em;
+
+    font-size: 1.5em;
+    animation-iteration-count: 1.5;
 }
 
 
@@ -249,7 +277,8 @@ article:nth-of-type(3) img {
 /*****************/
 
 @media (min-width: 517px) {
-    article:first-of-type {
+    article:first-of-type,
+    article:nth-of-type(4) {
         margin-left: 14em;
     }
     article:nth-of-type(2) {
@@ -264,5 +293,9 @@ article:nth-of-type(3) img {
     article:nth-of-type(2) {
         margin-right: 7em;
         margin-top: -10em;
+    }
+    article:nth-of-type(4) {
+        margin-top: -13em;
+        margin-left: 28em;
     }
 }
