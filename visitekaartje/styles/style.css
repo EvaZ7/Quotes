@@ -173,6 +173,9 @@ article:nth-of-type(4) {
     transition: width 2s, height 2s;
     align-self: flex-start;
 }
+article:first-of-type p {
+    font-size: 1.5em;
+}
 article:first-of-type:hover {
     margin-top: 2em;
     margin-left: 6em;
