@@ -4,6 +4,7 @@ In this course you will learn to build a web application without frameworks or u
 
 ## Opdrachten
 Mijn [visitekaartje](https://evaz7.github.io/Quotes/visitekaartje/index.html)
+Mijn [quotes](https://evaz7.github.io/Quotes/spa/index.html)
 
 ## Assignment
 
