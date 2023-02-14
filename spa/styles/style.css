@@ -14,3 +14,31 @@ body {
 button:not([disabled]) {
     cursor:pointer;
 }
+
+
+
+
+  
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --headings: rgb(21,24,24);
+    --links: rgb(116, 5, 60);
+    --linksactive: rgb(255, 255, 255);
+    --background-green: rgb(201, 231, 214);
+}
+
+
+
+
+
+
+/**************/
+/*** BASICS ***/
+/**************/
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
