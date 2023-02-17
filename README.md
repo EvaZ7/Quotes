@@ -39,6 +39,42 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 |  | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html |  |
 |  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
 
+## Week 1
+
+Ik heb voor de de "Quotes" user story gekozen. De Case die ik heb gekozen is de quotes, de userstory gaat als volgt:
+
+**Als student digital design, wil ik inspirerende web design quotes kunnen bekijken, zodat ik weer een beetje energie krijg wanneer ik het even niet meer zie zitten met al die hard-core deadlines die op me afkomen.**
+
+### Ideeën
+
+*Mijn idee is om een web app te maken met een daily quote, een overzicht van alle quotes met een sorteerfunctie en een overzichtje van quotes per auteur.*
+
+### Schetsen
+
+### Process
+
+- Als eerste heb ik deze week de data ingeladen vanuit de API, dit ging vrij gemakkelijk.
+- Ik heb een idee bedacht op basis van de data.
+- Ik heb een wireframe gemaakt van mijn idee en hier vervolgens een breakdown schets van gemaakt met toelichting.
+- Ik heb een setup gemaakt van mijn HTML.
+
+## Week 2
+
+DEze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en ik hiervoor een vervangende API heb moeten zoeken en implementeren. Ook heb ik hierdoor mijn idee deels moeten aanpassen.
+
+### Ideeën
+
+*Mijn idee is om een web app te maken met een dagelijkse quote, een overzicht van de 10 quotes uit de array van de categorie "Amazing" met een sorteerfunctie en een overzichtje van een quote per auteur.*
+
+### Schetsen
+
+### Process
+
+- Als eerste heb ik deze week de data ingeladen vanuit de API, dit ging vrij gemakkelijk.
+- Ik heb een idee bedacht op basis van de data.
+- Ik heb een wireframe gemaakt van mijn idee en hier vervolgens een breakdown schets van gemaakt met toelichting.
+- Ik heb een setup gemaakt van mijn HTML.
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
