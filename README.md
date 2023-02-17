@@ -105,6 +105,7 @@ Ik heb schetsen gemaakt van de verschillende states met wat annotaties.
 - Functionaliteiten zien er leuk uit, sorteren op auteur en alfabet leuk idee. Alleen nog stylen met CSS zou het afmaken. -Menno
 - Goed nagedacht over functionaliteiten. Pagina kan nog wat stijling gebruiken. Misschien een idee om te bepalen wat de belangrijkste informatie is en dit op een oogopslag proberen te laten zien. -Rachid
 
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
