@@ -51,6 +51,18 @@ Ik heb voor de de "Quotes" user story gekozen. De Case die ik heb gekozen is de 
 
 ### Schetsen
 
+![breakdownschets 1]()
+
+In de header staat een kleine nav met een link naar de “main” onderwerpen van de pagina. De titel/logo staat in het midden, de naam komt nog ;).
+
+Bovenaan staat een daily quote die refreshed kan worden met de knop eronder.
+
+De volgende section is een overzicht van alle auteurs met een foto/plaatje en de naam. Als je op een van de auteurs klikt veranderd het overzicht van quotes eronder met de info van de auteur daaronder(zit nog te twijfelen om de info boven de quotes te zetten of weg te laten? Auteurs nav of alleen buttons? Knop weglaten en scroll van maken?)
+
+Onderaan op de pagina bevind zich een overzicht van alle quotes met 2 sorteerfuncties. Als een van deze of allebei is geselecteerd dan veranderd het overzicht eronder op basis hiervan. Filters nav of alleen buttons of een andere tag?
+
+Alle quotes in de HTML ipv een <p> een <quote> geven?
+
 ### Process
 
 - Als eerste heb ik deze week de data ingeladen vanuit de API, dit ging vrij gemakkelijk.
@@ -60,11 +72,11 @@ Ik heb voor de de "Quotes" user story gekozen. De Case die ik heb gekozen is de 
 
 ## Week 2
 
-DEze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en ik hiervoor een vervangende API heb moeten zoeken en implementeren. Ook heb ik hierdoor mijn idee deels moeten aanpassen. Het enige probleem met deze API is dat hij maar een array geeft van max 10 quotes en deze elke keer weer anders is als de API/ pagina wordt herladen.
+Deze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en ik hiervoor een vervangende API heb moeten zoeken en implementeren. Ook heb ik hierdoor mijn idee deels moeten aanpassen. Het enige probleem met deze API is dat hij maar een array geeft van max 10 quotes en deze elke keer weer anders is als de API/ pagina wordt herladen.
 
 ### Ideeën
 
-*Mijn idee is om een web app te maken met een dagelijkse quote, een overzicht van de 10 quotes uit de array van de categorie "Amazing" met een sorteerfunctie en een overzichtje van een quote per auteur.*
+*Mijn idee is om een web app te maken met een dagelijkse quote, een overzicht van de 10 quotes uit de array van de categorie "Amazing" met een sorteerfunctie en een overzichtje van een quote per auteur met iconen.*
 
 ### Schetsen
 
@@ -80,6 +92,11 @@ Ik heb schetsen gemaakt van de verschillende states met wat annotaties.
 - Ik heb een begin gemaakt met de CSS voor de aplicatie en een ontwerp hiervoor gemaakt.
 - Ik heb een naam bedacht voor de applicatie.
 - Ik heb schetsen gemaakt en ideeën bedacht voor de verschillende states van de applicatie.
+
+### Feedback
+
+- Functionaliteiten zien er leuk uit, sorteren op auteur en alfabet leuk idee. Alleen nog stylen met CSS zou het afmaken. -Menno
+- Goed nagedacht over functionaliteiten. Pagina kan nog wat stijling gebruiken. Misschien een idee om te bepalen wat de belangrijkste informatie is en dit op een oogopslag proberen te laten zien. -Rachid
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
