@@ -60,7 +60,7 @@ Ik heb voor de de "Quotes" user story gekozen. De Case die ik heb gekozen is de 
 
 ## Week 2
 
-DEze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en ik hiervoor een vervangende API heb moeten zoeken en implementeren. Ook heb ik hierdoor mijn idee deels moeten aanpassen.
+DEze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en ik hiervoor een vervangende API heb moeten zoeken en implementeren. Ook heb ik hierdoor mijn idee deels moeten aanpassen. Het enige probleem met deze API is dat hij maar een array geeft van max 10 quotes en deze elke keer weer anders is als de API/ pagina wordt herladen.
 
 ### Ideeën
 
@@ -68,12 +68,18 @@ DEze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en 
 
 ### Schetsen
 
+Ik heb schetsen gemaakt van de verschillende states met wat annotaties.
+
 ### Process
 
-- Als eerste heb ik deze week de data ingeladen vanuit de API, dit ging vrij gemakkelijk.
-- Ik heb een idee bedacht op basis van de data.
-- Ik heb een wireframe gemaakt van mijn idee en hier vervolgens een breakdown schets van gemaakt met toelichting.
-- Ik heb een setup gemaakt van mijn HTML.
+- Ik heb een mathrandom aangemaakt om een random quote te kunnen geven als daily quote. (Deze was alleen mogelijk met de oude API)
+- Ik heb een refresh button gemakat zodat de gebruiker de "Daily quote" kan veranderen doordat de pagina refresht.
+- Ik heb een nieuwe API gevonden.
+- Ik heb heb mijn JavaScript aangepast op basis van deze nieuwe API en mijn API-KEY geïmplementeerd.
+- Ik heb mijn HTML aangepast op basis van mijn nieuwe idee.
+- Ik heb een begin gemaakt met de CSS voor de aplicatie en een ontwerp hiervoor gemaakt.
+- Ik heb een naam bedacht voor de applicatie.
+- Ik heb schetsen gemaakt en ideeën bedacht voor de verschillende states van de applicatie.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
