@@ -63,11 +63,16 @@ Onderaan op de pagina bevind zich een overzicht van alle quotes met 2 sorteerfun
 
 Alle quotes in de HTML ipv een <p> een <quote> geven?
 
+*Alle features die hierbij horen:*
+
+![features]()
+
 ### Process
 
 - Als eerste heb ik deze week de data ingeladen vanuit de API, dit ging vrij gemakkelijk.
 - Ik heb een idee bedacht op basis van de data.
 - Ik heb een wireframe gemaakt van mijn idee en hier vervolgens een breakdown schets van gemaakt met toelichting.
+- Ik heb schetsen gemaakt van mijn features.
 - Ik heb een setup gemaakt van mijn HTML.
 
 ## Week 2
@@ -81,6 +86,8 @@ Deze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en 
 ### Schetsen
 
 Ik heb schetsen gemaakt van de verschillende states met wat annotaties.
+![loadingstate]()
+![errorstate]()
 
 ### Process
 
