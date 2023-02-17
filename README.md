@@ -51,7 +51,7 @@ Ik heb voor de de "Quotes" user story gekozen. De Case die ik heb gekozen is de 
 
 ### Schetsen
 
-![breakdownschets 1]()
+![breakdownschets 1](https://github.com/EvaZ7/Quotes/blob/17738ddd78bcb964d1135e4672aa5c5945a735b1/readmeimg/breakdown1.jpeg)
 
 In de header staat een kleine nav met een link naar de “main” onderwerpen van de pagina. De titel/logo staat in het midden, de naam komt nog ;).
 
@@ -65,7 +65,7 @@ Alle quotes in de HTML ipv een <p> een <quote> geven?
 
 *Alle features die hierbij horen:*
 
-![features]()
+![features](https://github.com/EvaZ7/Quotes/blob/17738ddd78bcb964d1135e4672aa5c5945a735b1/readmeimg/interacties.jpeg)
 
 ### Process
 
@@ -86,8 +86,8 @@ Deze week een kleine tegenslag omdat de API niet werkte zoals dat zou moeten en 
 ### Schetsen
 
 Ik heb schetsen gemaakt van de verschillende states met wat annotaties.
-![loadingstate]()
-![errorstate]()
+![loadingstate](https://github.com/EvaZ7/Quotes/blob/17738ddd78bcb964d1135e4672aa5c5945a735b1/readmeimg/loadingstate.jpeg)
+![errorstate](https://github.com/EvaZ7/Quotes/blob/17738ddd78bcb964d1135e4672aa5c5945a735b1/readmeimg/errorstate.jpeg)
 
 ### Process
 
