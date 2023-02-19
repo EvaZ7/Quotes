@@ -1,41 +1,46 @@
 // variables
 var daily = document.querySelector("section:first-of-type q");
 var refreshButton = document.querySelector("section:first-of-type button");
+var deNav = document.querySelector("nav");
+var menuKnop = document.querySelector("header nav>a");
 // var randomness = getRandomInt(11);
 
 
 
 
 // logica
-fetchData()
+// fetchData()
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
     location.reload()
 }, false)
 
+menuKnop.addEventListener("click", function() {
+    deNav.classList.toggle("open");
+}, false)
 
 // functions
-function fetchData (){
-    var category = 'amazing';
-    // const url1 = `https://api.api-ninjas.com/v1/quotes?category=${category}&limit=10`;
-    const options = {
-        // method: 'GET',
-        headers: {'X-Api-Key': 'mr1axNSXq9DjWUuEBQUHGA==YK6lI63UGnsVpLyt'}
-    };
+// function fetchData (){
+//     var category = 'amazing';
+//     const url1 = `https://api.api-ninjas.com/v1/quotes?category=${category}&limit=10`;
+//     const options = {
+//         // method: 'GET',
+//         headers: {'X-Api-Key': 'mr1axNSXq9DjWUuEBQUHGA==YK6lI63UGnsVpLyt'}
+//     };
 
-    const data = fetch(url1, options)
-                    .then(response => response.json())
-                    .then(data => {
-                        // iets gaan doen met de data
-                        // data, h1 veranderen naar naam
-                        // changeHTML(data);
+//     const data = fetch(url1, options)
+//                     .then(response => response.json())
+//                     .then(data => {
+//                         // iets gaan doen met de data
+//                         // data, h1 veranderen naar naam
+//                         // changeHTML(data);
                         
-                        console.log(data);
-                        daily.textContent = data[0].quote;
-                    })
+//                         console.log(data);
+//                         daily.textContent = data[0].quote;
+//                     })
     
-}
+// }
 
 // function getRandomInt(max) {
 //     return Math.floor(Math.random() * max);
