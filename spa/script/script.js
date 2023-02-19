@@ -9,7 +9,7 @@ var menuKnop = document.querySelector("header nav>a");
 
 
 // logica
-// fetchData()
+fetchData()
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
@@ -21,26 +21,26 @@ menuKnop.addEventListener("click", function() {
 }, false)
 
 // functions
-// function fetchData (){
-//     var category = 'amazing';
-//     const url1 = `https://api.api-ninjas.com/v1/quotes?category=${category}&limit=10`;
-//     const options = {
-//         // method: 'GET',
-//         headers: {'X-Api-Key': 'mr1axNSXq9DjWUuEBQUHGA==YK6lI63UGnsVpLyt'}
-//     };
+function fetchData (){
+    var category = 'amazing';
+    // const url1 = `https://api.api-ninjas.com/v1/quotes?category=${category}&limit=10`;
+    const options = {
+        // method: 'GET',
+        headers: {'X-Api-Key': 'mr1axNSXq9DjWUuEBQUHGA==YK6lI63UGnsVpLyt'}
+    };
 
-//     const data = fetch(url1, options)
-//                     .then(response => response.json())
-//                     .then(data => {
-//                         // iets gaan doen met de data
-//                         // data, h1 veranderen naar naam
-//                         // changeHTML(data);
+    const data = fetch(url1, options)
+                    .then(response => response.json())
+                    .then(data => {
+                        // iets gaan doen met de data
+                        // data, h1 veranderen naar naam
+                        // changeHTML(data);
                         
-//                         console.log(data);
-//                         daily.textContent = data[0].quote;
-//                     })
+                        console.log(data);
+                        daily.textContent = data[0].quote;
+                    })
     
-// }
+}
 
 // function getRandomInt(max) {
 //     return Math.floor(Math.random() * max);
