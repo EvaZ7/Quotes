@@ -1,19 +1,12 @@
-// variables
-var daily = document.querySelector("section:first-of-type q");
-var refreshButton = document.querySelector("section:first-of-type button");
 
+import { onRouteChanged } from '../modules/router.js'
+// import { changeDaily } from '../modules/render.js'
+import { fetchData } from '../modules/api.js'
+
+// variables
+var refreshButton = document.querySelector("section:first-of-type button");
 var deNav = document.querySelector("nav");
 var menuKnop = document.querySelector("header nav>a");
-
-var authorOne = document.querySelector("section:nth-of-type(2) p:first-of-type");
-var authorQuote = document.querySelector("section:nth-of-type(2) q");
-// var randomness = getRandomInt(11);
-
-
-
-
-// logica
-// fetchData()
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
@@ -23,6 +16,8 @@ refreshButton.addEventListener("click", function() {
 menuKnop.addEventListener("click", function() {
     deNav.classList.toggle("open");
 }, false)
+
+window.addEventListener("hashchange", onRouteChanged);
 
 // functions
 // function fetchData (){
@@ -48,6 +43,26 @@ menuKnop.addEventListener("click", function() {
     
 // }
 
+// te gebruiken voor filters
+// function onRouteChanged() {
+//     const hash = window.location.hash;
+//     const routerView = document.getElementById("router-view");
+  
+//     if (!(routerView instanceof HTMLElement)) {
+//       throw new ReferenceError("No router view element available for rendering");
+//     }
+  
+//     switch (hash) {
+//       case "#AZ":
+//         routerView.innerHTML = "<h2>Daily quote</h2>";
+//         break;
+  
+//       default:
+//         routerView.innerHTML = "<h2>404 - Page Not Found</h2>";
+//         break;
+//    }
+// }
+
 // function getRandomInt(max) {
 //     return Math.floor(Math.random() * max);
 //   }
@@ -65,6 +80,7 @@ menuKnop.addEventListener("click", function() {
 //         });
     
 // }
+// var randomness = getRandomInt(11);
 
 
 // function getRandomQuote(data){
