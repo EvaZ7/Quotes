@@ -1,4 +1,5 @@
 import { changeDaily, loadAuthor } from '../modules/render.js';
+import { changeTwo, buttonTwo} from '../modules/render.js';
 
 function fetchData (){
     var category = 'amazing';
@@ -15,6 +16,7 @@ function fetchData (){
                         // data, h1 veranderen naar naam
                         // changeHTML(data);
                         changeDaily(data);
+                        buttonTwo.addEventListener("click", changeTwo(data));
                         loadAuthor(data);
                         console.log(data);
                     })

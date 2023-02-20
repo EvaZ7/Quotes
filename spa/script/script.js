@@ -1,6 +1,5 @@
 
 import { onRouteChanged } from '../modules/router.js'
-// import { changeDaily } from '../modules/render.js'
 import { fetchData } from '../modules/api.js'
 
 // variables
