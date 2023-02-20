@@ -107,7 +107,7 @@ header nav ul {
     padding: 6em 6em 0em 0em;
     border-radius: 16em;
 
-    transform: translateX(100vw) translateY(-100dvh);
+    transform: translateX(100vw);
     position: fixed;
     z-index: 0;
     transition: ease-in-out 0.2s;
@@ -264,8 +264,11 @@ section:nth-of-type(2) ul button.active{
     color: var(--background-green);
 }
 section:nth-of-type(2) ul button img{
-    width: 5em;
+    width: 4.5em;
     aspect-ratio: 1/1;
+}
+section:nth-of-type(2) ul button p{
+    margin: 0;
 }
 
 /*their quotes*/
