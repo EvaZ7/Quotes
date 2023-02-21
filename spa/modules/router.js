@@ -3,12 +3,12 @@ import { loadAll } from '../modules/render.js';
 
  function onRouteChanged(data) {
     const hash = window.location.hash;
-    const routerView = document.getElementById("router-view");
+    // const routerView = document.getElementById("router-view");
     const authorQuote = document.querySelector("section:nth-of-type(2) q");
   
-    if (!(routerView instanceof HTMLElement)) {
-      throw new ReferenceError("No router view element available for rendering");
-    }
+    // if (!(routerView instanceof HTMLElement)) {
+    //   throw new ReferenceError("No router view element available for rendering");
+    // }
   
     switch (hash) {
       case "#AZ":
