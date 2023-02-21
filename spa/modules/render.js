@@ -1,16 +1,10 @@
 var daily = document.querySelector("section:first-of-type q");
 
 var authorOne = document.querySelector("section:nth-of-type(2) p:first-of-type");
-var authorTwo = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(2) button p");
-var authorThree = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(3) button p");
-var authorFour = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(4) button p");
-var authorFive = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(5) button p");
-
-var buttonOne = document.querySelector("section:nth-of-type(2) ul li:first-of-type button");
-export var buttonTwo = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(2) button");
-var buttonThree = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(3) button");
-var buttonFour = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(4) button");
-var buttonFive = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(5) button");
+var authorTwo = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(2) a p");
+var authorThree = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(3) a p");
+var authorFour = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(4) a p");
+var authorFive = document.querySelector("section:nth-of-type(2) ul li:nth-of-type(5) a p");
 
 export var authorQuote = document.querySelector("section:nth-of-type(2) q");
 
@@ -28,13 +22,13 @@ export function loadAuthor (data){
     authorQuote.textContent = data[1].quote;
 }
 
-// buttonTwo.addEventListener("click", function() {
+// export function changeTwo (data){
 //     authorQuote.textContent = data[2].quote;
-// }, false)
+//     console.log('click');
+// };
 
-export function changeTwo (data){
-    authorQuote.textContent = data[2].quote;
-    console.log('click');
-};
+// export const authors = {
+//     one: document.querySelector('')
+// }
 
 // export { changeDaily };

@@ -1,11 +1,34 @@
 
 import { onRouteChanged } from '../modules/router.js'
-import { fetchData } from '../modules/api.js'
+import fetchData from '../modules/api.js'
+import { changeDaily, loadAuthor } from '../modules/render.js';
+// import { changeTwo, buttonTwo} from '../modules/render.js';
 
 // variables
 var refreshButton = document.querySelector("section:first-of-type button");
 var deNav = document.querySelector("nav");
 var menuKnop = document.querySelector("header nav>a");
+
+
+// fetchData()
+//     .then(data => {
+//         console.log('Nu ben ik hier!', data);
+//         // iets gaan doen met de data
+//         // data, h1 veranderen naar naam
+//         // changeHTML(data);
+//         changeDaily(data);
+//         loadAuthor(data);
+//         // buttonTwo.addEventListener("click", e => {
+//         //     setTimeout(() => {
+//         //         changeTwo(data)
+//         //     }, 5000)
+//         // });
+
+//         window.addEventListener("hashchange", e => {
+//             onRouteChanged(data);
+//         });
+
+//     })
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
@@ -16,7 +39,7 @@ menuKnop.addEventListener("click", function() {
     deNav.classList.toggle("open");
 }, false)
 
-window.addEventListener("hashchange", onRouteChanged);
+
 
 // functions
 // function fetchData (){

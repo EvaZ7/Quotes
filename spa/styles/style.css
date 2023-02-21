@@ -244,7 +244,7 @@ section:nth-of-type(2) ul{
 section:nth-of-type(2) ul li{
     margin-right: 2em;
 }
-section:nth-of-type(2) ul button{
+section:nth-of-type(2) ul a{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,16 +259,17 @@ section:nth-of-type(2) ul button{
     border: none;
     border-radius: 1em;
 }
-section:nth-of-type(2) ul button.active{
+section:nth-of-type(2) ul li a:focus{
     background-color: var(--headings);
     color: var(--background-green);
 }
-section:nth-of-type(2) ul button img{
+section:nth-of-type(2) ul a img{
     width: 4.5em;
     aspect-ratio: 1/1;
 }
-section:nth-of-type(2) ul button p{
+section:nth-of-type(2) ul a p{
     margin: 0;
+    font-size: 0.9em;
 }
 
 /*their quotes*/
