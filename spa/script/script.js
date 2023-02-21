@@ -10,26 +10,26 @@ var deNav = document.querySelector("nav");
 var menuKnop = document.querySelector("header nav>a");
 
 
-// fetchData()
-//     .then(data => {
-//         console.log('Nu ben ik hier!', data);
-//         // iets gaan doen met de data
-//         // data, h1 veranderen naar naam
-//         // changeHTML(data);
-//         changeDaily(data);
-//         loadAuthor(data);
-//         loadAll(data);
-//         // buttonTwo.addEventListener("click", e => {
-//         //     setTimeout(() => {
-//         //         changeTwo(data)
-//         //     }, 5000)
-//         // });
+fetchData()
+    .then(data => {
+        console.log('Nu ben ik hier!', data);
+        // iets gaan doen met de data
+        // data, h1 veranderen naar naam
+        // changeHTML(data);
+        changeDaily(data);
+        loadAuthor(data);
+        loadAll(data);
+        // buttonTwo.addEventListener("click", e => {
+        //     setTimeout(() => {
+        //         changeTwo(data)
+        //     }, 5000)
+        // });
 
-//         window.addEventListener("hashchange", e => {
-//             onRouteChanged(data);
-//         });
+        window.addEventListener("hashchange", e => {
+            onRouteChanged(data);
+        });
 
-//     })
+    })
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
