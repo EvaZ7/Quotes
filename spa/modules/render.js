@@ -47,7 +47,6 @@ export function loadAll (data){
     allQuotes.quoteNine.textContent = data[9].quote;
     allQuotes.quoteZero.textContent = data[0].quote;
 }
-
 // export function changeTwo (data){
 //     authorQuote.textContent = data[2].quote;
 //     console.log('click');

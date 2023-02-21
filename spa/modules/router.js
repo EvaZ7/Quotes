@@ -1,4 +1,6 @@
 // te gebruiken voor filters
+import { loadAll } from '../modules/render.js';
+
  function onRouteChanged(data) {
     const hash = window.location.hash;
     const routerView = document.getElementById("router-view");
@@ -10,7 +12,18 @@
   
     switch (hash) {
       case "#AZ":
-        routerView.innerHTML = "<li>idk</li>";
+        data.sort(function (a, b) {
+          if (a.quote < b.quote) {
+            return -1;
+          }
+          if (a.quote> b.quote) {
+            return 1;
+          }
+          return 0;
+        });
+        
+        console.log(data);
+        loadAll(data);
       break;
       
       case "#author1":
