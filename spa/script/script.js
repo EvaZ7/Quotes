@@ -1,7 +1,7 @@
 
 import { onRouteChanged } from '../modules/router.js'
 import fetchData from '../modules/api.js'
-import { changeDaily, loadAuthor } from '../modules/render.js';
+import { changeDaily, loadAuthor, loadAll } from '../modules/render.js';
 // import { changeTwo, buttonTwo} from '../modules/render.js';
 
 // variables
@@ -18,6 +18,7 @@ var menuKnop = document.querySelector("header nav>a");
 //         // changeHTML(data);
 //         changeDaily(data);
 //         loadAuthor(data);
+//         loadAll(data);
 //         // buttonTwo.addEventListener("click", e => {
 //         //     setTimeout(() => {
 //         //         changeTwo(data)

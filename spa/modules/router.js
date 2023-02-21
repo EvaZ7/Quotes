@@ -10,8 +10,8 @@
   
     switch (hash) {
       case "#AZ":
-        routerView.innerHTML = "<h2>Daily quote</h2>";
-        break;
+        routerView.innerHTML = "<li>idk</li>";
+      break;
       
       case "#author1":
         authorQuote.textContent = data[1].quote;

@@ -282,8 +282,8 @@ section:nth-of-type(2) q{
     border-radius: 1em;
     padding: 0.8em;
 
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 
@@ -336,8 +336,8 @@ section:last-of-type ul:last-of-type {
 }
 section:last-of-type ul:last-of-type li{
     background-color: var(--headings);
-    width: 35vw;
-    height: 15dvh;
+    width: 38vw;
+    /* height: 40dvh; */
 
     border-radius: 1em;
     display: flex;
