@@ -136,7 +136,7 @@ Wireflow en een bijbehorende activity diagram uitgewerkt.
 
 ### Feedback
 
--
+- Wat refactoren, maak gebruik van loops en schoon je code op in je render.js
 https://www.freecodecamp.org/news/how-to-sort-alphabetically-in-javascript/
 
 ### To do
