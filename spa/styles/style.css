@@ -51,11 +51,12 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     width: 80vw;
 }
-p, q {
+p, q, a {
     font-family: Arial, Helvetica, sans-serif;
 }
 a {
     text-decoration: none;
+    text-transform: capitalize;
 }
 li {
     list-style-type: none;
@@ -111,10 +112,18 @@ header nav ul {
     position: fixed;
     z-index: 0;
     transition: ease-in-out 0.2s;
+    box-shadow: 0.08em 0em 1em 0.1em rgb(102, 152, 152);
 }
 header nav.open ul {
     transform: translateX(0vw);
     transition: ease-in-out 0.2s;
+}
+header nav ul li {
+    margin-bottom: 1.5em;
+}
+header nav ul li a {
+    color: var(--headings);
+    text-decoration: underline;
 }
 
 /*hamburger knopje*/
@@ -214,6 +223,10 @@ section:first-of-type button {
     border: none;
     background-color: transparent;
 }
+section:first-of-type button:focus {
+    /* transform: rotate(180deg); */
+    animation: rotate 0.6s linear 1;
+}
 section:first-of-type button img{
     width: 2em;
 
@@ -258,10 +271,12 @@ section:nth-of-type(2) ul a{
 
     border: none;
     border-radius: 1em;
+    box-shadow: 0.08em 0em 0.08em 0.07em rgba(102, 152, 152, 0.642);
 }
 section:nth-of-type(2) ul li a:focus{
-    background-color: var(--headings);
-    color: var(--background-green);
+    filter: invert(1);
+    background-color: rgb(233, 232, 230);
+    color: rgb(70, 36, 42);
 }
 section:nth-of-type(2) ul a img{
     width: 4.5em;
@@ -302,27 +317,24 @@ section:last-of-type h2{
     margin-top: 3em;
 }
 
-/*sorteerknopjes*/
-section:last-of-type ul:first-of-type {
-    display: flex;
-    justify-content: space-between;
-    width: 10em;
-
-    padding-left: 0;
-    margin: 0;
-}
-section:last-of-type button{
-    margin: 0;
+/*sorteerknopje*/
+section:last-of-type a{
+    margin-right: 8em;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em 1.5em 0.5em 1.5em;
 
     background-color: var(--white);
     color: var(--headings);
+    box-shadow: 0.08em 0em 1em 0.1em rgb(102, 152, 152);
+}
+section:last-of-type a:focus{
+    background-color: var(--headings);
+    color: var(--white);
 }
 
 /*alle quotes*/
-section:last-of-type ul:last-of-type {
+section:last-of-type ul:last-of-type{
     padding-left: 0;
     margin-bottom: 5em;
     margin-top: 2.5em;
@@ -349,4 +361,51 @@ section:last-of-type ul:last-of-type q{
     color: var(--background-green);
     padding: 0.5em;
 }
-/*test*/
+
+
+
+/***********/
+/*animaties*/
+/***********/
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+/***************/
+/*media queries*/
+/***************/
+
+@media (min-width: 950px) {
+    header nav {
+        align-items: center;
+    }
+    header nav ul {
+        background: none;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        height: 4em;
+        margin-top: 1.5em;
+        margin-right: 2em;
+        width: 15em;
+        padding: 0;
+    
+        transform: translateX(0vw);
+        position: unset;
+        box-shadow: none;
+    }
+    header nav>a {
+        display: none;
+    }
+    
+}

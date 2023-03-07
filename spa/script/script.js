@@ -9,6 +9,21 @@ var refreshButton = document.querySelector("section:first-of-type button");
 var deNav = document.querySelector("nav");
 var menuKnop = document.querySelector("header nav>a");
 
+var refreshButton = document.querySelector("section:first-of-type button img");
+var authorQuote = document.querySelector("section:nth-of-type(2) q");
+var allQuotes = document.querySelectorAll('li > q');
+// for (let i = 0; i < allQuotes.length; i++){
+//     allQuotes[i].textContent = "...";
+// };
+
+const loadingdaily = document.querySelector("section:first-of-type q");
+loadingdaily.textContent = "Do you like my loading animation? I made it myself";
+const loadingAuthors= document.querySelectorAll("section:nth-of-type(2) p");
+// for (let name = 0; name < allQuotes.length; name++){
+//     loadingAuthors[name].textContent = "...";
+// };
+authorQuote.textContent = "Loading";
+
 
 // fetchData()
 //     .then(data => {
@@ -16,6 +31,10 @@ var menuKnop = document.querySelector("header nav>a");
 //         // iets gaan doen met de data
 //         // data, h1 veranderen naar naam
 //         // changeHTML(data);
+//         loadingdaily.textContent = "";
+//         loadingAuthors.textContent = "";
+//         authorQuote.textContent = "";
+//         allQuotes.textContent = "";
 //         changeDaily(data);
 //         loadAuthor(data);
 //         loadAll(data);
@@ -27,9 +46,16 @@ var menuKnop = document.querySelector("header nav>a");
 
 //         window.addEventListener("hashchange", e => {
 //             onRouteChanged(data);
-//         });
+//         })
 
-//     })
+//     }).catch((error) => {
+//         // Handle the error
+//         console.log(error);
+//         loadingdaily.textContent = "This should be working... but something's gone wrong";
+//         refreshButton.src = "images/warning.png";
+//         authorQuote.textContent = "Quote not found...";
+//         allQuotes.textContent = "Failed to load quotes...";
+//     });
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
