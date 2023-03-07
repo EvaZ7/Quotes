@@ -1,7 +1,7 @@
 export default function fetchData (){
 
     var category = 'amazing';
-    const url1 = `https://api.api-ninjas.com/v1/uotes?category=${category}&limit=10`;
+    const url1 = `https://api.api-ninjas.com/v1/quotes?category=${category}&limit=10`;
     const options = {
         headers: {'X-Api-Key': 'mr1axNSXq9DjWUuEBQUHGA==YK6lI63UGnsVpLyt'}
     };

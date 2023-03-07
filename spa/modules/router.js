@@ -1,8 +1,8 @@
 // te gebruiken voor filters
-import { loadAll } from '../modules/render.js';
+import { renderQuotes } from '../modules/render.js';
 
  function onRouteChanged(data) {
-    const hash = window.location.hash;
+    const hash = window.location.hash.split('/')[0];
     // const routerView = document.getElementById("router-view");
     const authorQuote = document.querySelector("section:nth-of-type(2) q");
   
@@ -10,6 +10,8 @@ import { loadAll } from '../modules/render.js';
     //   throw new ReferenceError("No router view element available for rendering");
     // }
   
+  console.log(hash);
+
     switch (hash) {
       case "#AZ":
         data.sort(function (a, b) {
@@ -23,32 +25,16 @@ import { loadAll } from '../modules/render.js';
         });
         
         console.log(data);
-        loadAll(data);
+        renderQuotes(data);
       break;
       
-      case "#author1":
-        authorQuote.textContent = data[1].quote;
-        console.log('works1!');
-      break;
+      case "#author":        
+        const theQuote = data.find(quote => {
+          return quote.author === window.location.hash.split('/')[1].replaceAll('-', ' ')
+        })
 
-      case "#author2":
-        authorQuote.textContent = data[2].quote;
-        console.log('works2!');
-      break;
+        authorQuote.textContent = theQuote.quote
 
-      case "#author3":
-        authorQuote.textContent = data[3].quote;
-        console.log('works3!');
-      break;
-
-      case "#author4":
-        authorQuote.textContent = data[4].quote;
-        console.log('works4!');
-      break;
-
-      case "#author5":
-        authorQuote.textContent = data[5].quote;
-        console.log('works5!');
       break;
   
       // default:

@@ -1,61 +1,43 @@
 
 import { onRouteChanged } from '../modules/router.js'
 import fetchData from '../modules/api.js'
-import { changeDaily, loadAuthor, loadAll } from '../modules/render.js';
-// import { changeTwo, buttonTwo} from '../modules/render.js';
+import { changeDaily, renderAuthors, authorQuote, standardAuthorquote, renderQuotes } from '../modules/render.js';
 
 // variables
-var refreshButton = document.querySelector("section:first-of-type button");
-var deNav = document.querySelector("nav");
-var menuKnop = document.querySelector("header nav>a");
+const refreshButton = document.querySelector("section:first-of-type button");
+const deNav = document.querySelector("nav");
+const menuKnop = document.querySelector("header nav>a");
+const allQuotes = document.querySelectorAll('li > q');
 
-var refreshButton = document.querySelector("section:first-of-type button img");
-var authorQuote = document.querySelector("section:nth-of-type(2) q");
-var allQuotes = document.querySelectorAll('li > q');
-// for (let i = 0; i < allQuotes.length; i++){
-//     allQuotes[i].textContent = "...";
-// };
-
+// naar module brengen
 const loadingdaily = document.querySelector("section:first-of-type q");
+
 loadingdaily.textContent = "Do you like my loading animation? I made it myself";
-const loadingAuthors= document.querySelectorAll("section:nth-of-type(2) p");
-// for (let name = 0; name < allQuotes.length; name++){
-//     loadingAuthors[name].textContent = "...";
-// };
 authorQuote.textContent = "Loading";
 
 
-// fetchData()
-//     .then(data => {
-//         console.log('Nu ben ik hier!', data);
-//         // iets gaan doen met de data
-//         // data, h1 veranderen naar naam
-//         // changeHTML(data);
-//         loadingdaily.textContent = "";
-//         loadingAuthors.textContent = "";
-//         authorQuote.textContent = "";
-//         allQuotes.textContent = "";
-//         changeDaily(data);
-//         loadAuthor(data);
-//         loadAll(data);
-//         // buttonTwo.addEventListener("click", e => {
-//         //     setTimeout(() => {
-//         //         changeTwo(data)
-//         //     }, 5000)
-//         // });
+fetchData()
+    .then(data => {
+        changeDaily(data);
+        renderAuthors(data);
+        standardAuthorquote(data);
+        renderQuotes(data);
 
-//         window.addEventListener("hashchange", e => {
-//             onRouteChanged(data);
-//         })
+        window.addEventListener("hashchange", e => {
+            onRouteChanged(data);
+        })
 
-//     }).catch((error) => {
-//         // Handle the error
-//         console.log(error);
-//         loadingdaily.textContent = "This should be working... but something's gone wrong";
-//         refreshButton.src = "images/warning.png";
-//         authorQuote.textContent = "Quote not found...";
-//         allQuotes.textContent = "Failed to load quotes...";
-//     });
+    }).catch((error) => {
+        // Handle the error
+        console.log(error);
+        loadingdaily.textContent = "This should be working... but something's gone wrong";
+        refreshButton.src = "images/warning.png";
+        authorQuote.textContent = "Quote not found...";
+    }).finally(() =>{
+        // hier de loader uitzetten?
+        // loadingdaily.textContent = "";
+        // authorQuote.textContent = "";
+    });
 
 // eventlisteners
 refreshButton.addEventListener("click", function() {
