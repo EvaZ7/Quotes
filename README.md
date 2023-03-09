@@ -1,43 +1,28 @@
 # Quotes
 
-In this course you will learn to build a web application without frameworks or unnecessary libraries, but with vanilla HTML, CSS & JavaScript as much as possible. The end result is a modular, single page web app (SPA). Data will be retrieved from an external API, manipulated and finally shown in the UI of the App. You will learn to apply interface principles when building and testing the interface. With the gained knowledge you will be able to build interactive prototypes, based on a user story and real data. Also you will gain a better understanding of how API's, frameworks and libraries work.
+With this web-app, you have access to the most amazing quotes. It provides a generator for your daily inspirational quote, several quotes from some famous authors and a list of quotes if you haven't had enough of quotes yet.
 
-## Opdrachten
-Mijn [visitekaartje](https://evaz7.github.io/Quotes/visitekaartje/index.html)
-Mijn [quotes](https://evaz7.github.io/Quotes/spa/index.html)
+![Frontpage](https://evaz7.github.io/Quotes/spa/readmeimg/amazed.png)
 
-## Assignment
+## Projects
+My [visitekaartje](https://evaz7.github.io/Quotes/visitekaartje/index.html)
+My Amazing [quotes](https://evaz7.github.io/Quotes/spa/index.html) web app
 
-1. [Visitekaartje](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/main/course/week-1.md#1-visitekaartje): Ontwerp en maak met HTML, CSS en JS een visitekaartje.
-2. [Squadpagina](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/main/course/week-1.md#2-squadpagina): Ontwerp en maak met je team een squadpagina waarin je de verschillende visitekaartjes toont.
-3. [Single Page App](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/master/course/week-2.md): Design and build a single page web app based on a User Story.
+## Use it
+You can use this project to generate fresh quotes for your users, to spice up their day or to help them feel AMAZED again by thing's life has to offer. But you can also use it to sort and fetch data from an API, it has different section that each provide a different way of displaying the data variating from very controlled to putting it all in a list. You can use it as a homepage setup for a more detailed project, or just use the daily randomizer as a building block for your application.
 
----
+## Install it
+It is made in vanilla JavaScript with an API. Because of the API you will need to have access to it first. In order to do so:
+1. You have to create and account on API-Ninjas  https://api-ninjas.com/
+2. Then you will need the API link, which is: https://api.api-ninjas.com/v1/quotes?category=amazing
+3. Add your personal API-key to the link, the key can be found on your personal API-Ninjas account.
 
-## Program
+## The external data source
+The data source gives you tons and tons of different quotes, the API of API-Ninjas has a built-in randomizer that gives you up till 10 different quotes every time you refresh it. It also gives you an author name and a category within the string. You can change the category of the API very easily by just changing it within the link. There are tons of different categories to choose from!
 
-| Planning | Maandag | Dinsdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1 - Hellooo 🤸](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/master/course/week-1.md) | Introduction + visitekaartje | Squadpagina | Teambespreking |
-| [Week 2 - Hello API 🐒](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/master/course/week-2.md) | College + briefing opdracht | College + Work | Feedbackgesprekken |
-| Voorjaarsvakantie |  |  |  |
-| [Week 3 - Refactor 🛠](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/master/course/week-3.md)  | College + work  | College + work | Feedbackgesprekken  |
-| [Week 4 - Wrapping up 🎁](https://github.com/cmda-minor-web/web-app-from-scratch-2223/blob/master/course/week-4.md)  | College + work  | Review + work | Beoordelingsgesprekken  |
+----
 
-## Best Practices
-
-All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md).
-
-## Rubric
-
-Your efforts will be graded using a single point rubric (see below). You will have to pass the criterion (centre column) to pass the course. During the test you will be consulted and will be given feedback on things we think deficient and things we think are an improvement on the criterion.
-
-| Deficiency | Criterion | Improvement |
-|:--|:--|:--|
-|  | *User Interface* - you design, build and test the user interface by applying interface design principles |  |
-|  | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |  |
-|  | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html |  |
-|  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
+## Progress(in Dutch)
 
 ## Week 1
 
@@ -120,8 +105,9 @@ Deze week ben ik aan de slag gegaan met de stijling van mijn applicatie en een a
 ### Wireframes
 
 Wireflow en een bijbehorende activity diagram uitgewerkt.
-![loadingstate](https://github.com/EvaZ7/Quotes/blob/17738ddd78bcb964d1135e4672aa5c5945a735b1/readmeimg/loadingstate.jpeg)
-![errorstate](https://github.com/EvaZ7/Quotes/blob/17738ddd78bcb964d1135e4672aa5c5945a735b1/readmeimg/errorstate.jpeg)
+![dailyquote](https://github.com/EvaZ7/Quotes/readmeimg/daily.png)
+![quote by author](https://github.com/EvaZ7/Quotes/readmeimg/authors.png)
+![all quotes](https://github.com/EvaZ7/Quotes/readmeimg/all.png)
 
 ### Process
 
@@ -129,7 +115,7 @@ Wireflow en een bijbehorende activity diagram uitgewerkt.
 - Ik heb mijn code opgedeeld in modules.
 - ik heb routes gemaakt voor mijn auteur knoppen.
 - Ik heb routes gemaakt voor mijn sorteer functie.
-- Ik heb een alfabetische sorteerfunctie gemaakt voor alle quotes.
+- Ik heb een alfabetische sorteerfunctie gemaakt voor alle quotes. https://www.freecodecamp.org/news/how-to-sort-alphabetically-in-javascript/
 - Ik heb een functie geschreven voor het inladen van alle quotes.
 - Ik heb een functie geschreven voor het inladen van quotes per auteur.
 - Ik heb een functie geschreven voor het inladen van de namen van alle auteurs.
@@ -137,13 +123,26 @@ Wireflow en een bijbehorende activity diagram uitgewerkt.
 ### Feedback
 
 - Wat refactoren, maak gebruik van loops en schoon je code op in je render.js
-https://www.freecodecamp.org/news/how-to-sort-alphabetically-in-javascript/
 
 ### To do
 
 - loading state
 - error state
 - wireframes etc.
+
+## Week 4
+
+Na het maken van mijn loading- en error-state ben ik tegen een aantal dingen aangelopen, mijn code werkte namelijk niet meer. Het probleem was namelijk dat ik te veel variablen had en met deze variablen ook nog eens let en const door elkaar ging gebruiken.
+
+### Process
+
+- Error state gemaakt.
+- Loading state gemaakt.
+- HTML elementen laten genereren met JavaScript.
+- Loops gemaakt voor het genereren van deze element en de data hierin.
+- Code opgeschoont en alle queryselectors eruit gehaald.
+- Data plaatsen in HTML elementen met loops in JavaScript.
+- README afgemaakt.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
