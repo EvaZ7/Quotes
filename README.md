@@ -2,7 +2,7 @@
 
 With this web-app, you have access to the most amazing quotes. It provides a generator for your daily inspirational quote, several quotes from some famous authors and a list of quotes if you haven't had enough of quotes yet.
 
-![Frontpage](https://evaz7.github.io/Quotes/spa/readmeimg/amazed.png)
+![Frontpage](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/amazed.png)
 
 ## Projects
 My [visitekaartje](https://evaz7.github.io/Quotes/visitekaartje/index.html)
@@ -105,9 +105,9 @@ Deze week ben ik aan de slag gegaan met de stijling van mijn applicatie en een a
 ### Wireframes
 
 Wireflow en een bijbehorende activity diagram uitgewerkt.
-![dailyquote](https://github.com/EvaZ7/Quotes/readmeimg/daily.png)
-![quote by author](https://github.com/EvaZ7/Quotes/readmeimg/authors.png)
-![all quotes](https://github.com/EvaZ7/Quotes/readmeimg/all.png)
+![dailyquote](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/daily.png)
+![quote by author](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/authors.png)
+![all quotes](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/all.png)
 
 ### Process
 
