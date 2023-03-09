@@ -1,28 +1,63 @@
 # Quotes
 
-With this web-app, you have access to the most amazing quotes. It provides a generator for your daily inspirational quote, several quotes from some famous authors and a list of quotes if you haven't had enough of quotes yet.
-
 ![Frontpage](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/amazed.png)
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![license: mit](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/EvaZ7/Blok-tech/blob/main/LICENSE)
+[![stars](https://img.shields.io/badge/stars-1-9cf?style=flat-square)](https://github.com/EvaZ7/Blok-tech/stargazers)
+
+With this web-app, you have access to the most amazing quotes. It provides a generator for your daily inspirational quote, several quotes from some famous authors and a list of quotes if you haven't had enough of quotes yet.
+
+## Contents 📑
+
+- _Projects_ Multiple projects?
+- _Use it?_ What is it all about and how does it work?
+- _Install it_ How do I start? How do I use it?
+- _The Data_ Something with ninjas right?
+- _Wishlist_ ...
+- _Author_ This project is made by...
+- _Help_ Where do I find help?
+- _Progress_ Yes I wrote it in Dutch🇳🇱, shoot in an issue.
+- _Sources_ APA list with used sources.
+
 ## Projects
+
 My [visitekaartje](https://evaz7.github.io/Quotes/visitekaartje/index.html)
 My Amazing [quotes](https://evaz7.github.io/Quotes/spa/index.html) web app
 
 ## Use it
+
 You can use this project to generate fresh quotes for your users, to spice up their day or to help them feel AMAZED again by thing's life has to offer. But you can also use it to sort and fetch data from an API, it has different section that each provide a different way of displaying the data variating from very controlled to putting it all in a list. You can use it as a homepage setup for a more detailed project, or just use the daily randomizer as a building block for your application.
 
 ## Install it
+
 It is made in vanilla JavaScript with an API. Because of the API you will need to have access to it first. In order to do so:
-1. You have to create and account on API-Ninjas  https://api-ninjas.com/
-2. Then you will need the API link, which is: https://api.api-ninjas.com/v1/quotes?category=amazing
+1. You have to create and account on [API-Ninjas](https://api-ninjas.com/)
+2. Then you will need the API link, which is: [this link](https://api.api-ninjas.com/v1/quotes?category=amazing)
 3. Add your personal API-key to the link, the key can be found on your personal API-Ninjas account.
 
 ## The external data source
+
 The data source gives you tons and tons of different quotes, the API of API-Ninjas has a built-in randomizer that gives you up till 10 different quotes every time you refresh it. It also gives you an author name and a category within the string. You can change the category of the API very easily by just changing it within the link. There are tons of different categories to choose from!
+
+## Wishlist
+
+- Design something with more "SPICE"🌶️
+- Work on splitting it more up into modules
+- Making more pages
+
+## Author
+
+Credits to me, Eva Zaadnoordijk (500847567) 2023 for Communication and Multimedia Design at the Amsterdam University of Applied Sciences.
+
+## Help
+
+Are some parts still a bit confusing? Feel free to contact me at:
+_eva.zaadnoordijk.zaadnoordijk@hva.nl_
 
 ----
 
-## Progress(in Dutch)
+## Progress(in Dutch 🇳🇱)
 
 ## Week 1
 
@@ -105,8 +140,12 @@ Deze week ben ik aan de slag gegaan met de stijling van mijn applicatie en een a
 ### Wireframes
 
 Wireflow en een bijbehorende activity diagram uitgewerkt.
+
+Dagelijkse quote
 ![dailyquote](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/daily.png)
+Quotes per auteur
 ![quote by author](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/authors.png)
+Alle quotes
 ![all quotes](https://github.com/EvaZ7/Quotes/blob/4b05094b8fa3c4556e8e3799aaa9f918216d75d5/readmeimg/all.png)
 
 ### Process
@@ -115,7 +154,7 @@ Wireflow en een bijbehorende activity diagram uitgewerkt.
 - Ik heb mijn code opgedeeld in modules.
 - ik heb routes gemaakt voor mijn auteur knoppen.
 - Ik heb routes gemaakt voor mijn sorteer functie.
-- Ik heb een alfabetische sorteerfunctie gemaakt voor alle quotes. https://www.freecodecamp.org/news/how-to-sort-alphabetically-in-javascript/
+- Ik heb een alfabetische sorteerfunctie gemaakt voor alle quotes.
 - Ik heb een functie geschreven voor het inladen van alle quotes.
 - Ik heb een functie geschreven voor het inladen van quotes per auteur.
 - Ik heb een functie geschreven voor het inladen van de namen van alle auteurs.
@@ -144,22 +183,8 @@ Na het maken van mijn loading- en error-state ben ik tegen een aantal dingen aan
 - Data plaatsen in HTML elementen met loops in JavaScript.
 - README afgemaakt.
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+## Sources
 
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+- https://www.freecodecamp.org/news/how-to-sort-alphabetically-in-javascript/
+- https://api-ninjas.com/
+- Copyright (c) 2021 Communication and Multimedia Design, Amsterdam University of Applied Science
