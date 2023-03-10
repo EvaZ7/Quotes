@@ -4,7 +4,7 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![license: mit](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/EvaZ7/Blok-tech/blob/main/LICENSE)
-[![stars](https://img.shields.io/badge/stars-1-9cf?style=flat-square)](https://github.com/EvaZ7/Blok-tech/stargazers)
+[![stars](https://img.shields.io/badge/stars-0-9cf?style=flat-square)](https://github.com/EvaZ7/Blok-tech/stargazers)
 
 With this web-app, you have access to the most amazing quotes. It provides a generator for your daily inspirational quote, several quotes from some famous authors and a list of quotes if you haven't had enough of quotes yet.
 
