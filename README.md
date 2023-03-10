@@ -10,15 +10,15 @@ With this web-app, you have access to the most amazing quotes. It provides a gen
 
 ## Contents 📑
 
-- _Projects_ Multiple projects?
-- _Use it?_ What is it all about and how does it work?
-- _Install it_ How do I start? How do I use it?
-- _The Data_ Something with ninjas right?
-- _Wishlist_ ...
-- _Author_ This project is made by...
-- _Help_ Where do I find help?
-- _Progress_ Yes I wrote it in Dutch🇳🇱, shoot in an issue.
-- _Sources_ APA list with used sources.
+- [Projects](https://github.com/EvaZ7/Quotes#projects) Multiple projects?
+- [Use it?](https://github.com/EvaZ7/Quotes#use-it) What is it all about and how does it work?
+- [Install it](https://github.com/EvaZ7/Quotes#install-it) How do I start? How do I use it?
+- [The Data](https://github.com/EvaZ7/Quotes#the-external-data-source)Something with ninjas right?
+- [Wishlist](https://github.com/EvaZ7/Quotes#wishlist)...
+- [Author](https://github.com/EvaZ7/Quotes#author)This project is made by...
+- [Help](https://github.com/EvaZ7/Quotes#help) Where do I find help?
+- [Progress](https://github.com/EvaZ7/Quotes#progressin-dutch-)Yes I wrote it in Dutch🇳🇱, shoot in an issue.
+- [Sources](https://github.com/EvaZ7/Quotes#sources)APA list with used sources.
 
 ## Projects
 
